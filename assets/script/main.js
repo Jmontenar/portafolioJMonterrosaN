@@ -21,3 +21,5 @@ let toggle = document.querySelector('.toggle')
 toggle.onclick = function(){
     navigation.classList.toggle('active')
 }
+
+$('.slide').hiSlide()
